@@ -1,14 +1,33 @@
-## Welcome to GitHub Pages
+## Welcome to my site
+```
+   Hi, I'm 7TE. I like messing with computers and doing stuff
+ 
+   From ➢ US
+   Age ➢ 15 
+   Hobby ➢ Coding/Gaming
+   Website ➢ https://cegledi.net/
+   Hotel? ➢ Trivago
+```
+Heres some pretty cool things:
 
-You can use the [editor on GitHub](https://github.com/7-TE/-.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+[HomeTerm](https://hometerm.dev/) 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+[Zwei Startpage](https://startpage-zwei.vercel.app)
+
+[Bento](https://migueravila.github.io/Bento/)
+
+[Dashy](https://demo.dashy.to/)
+
+[Fluidity](https://prettycoffee.github.io/fluidity/)
+
+[StartCube](https://rice.capuno.cat/Archive/NotRice/websites/startpages/startcube/index.html)
+
 
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
+``markdown``
 Syntax highlighted code block
 
 # Header 1
