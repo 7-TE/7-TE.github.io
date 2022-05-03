@@ -8,6 +8,17 @@
    Website ➢ https://cegledi.net/
    Hotel? ➢ Trivago
 ```
+Ways to contact me:
+
+Twitter: [@7TE](https://twitter.com/_7TE_)
+
+Reddit: [@7TE__](https://www.reddit.com/user/7TE__)
+
+Discord
+
+Github
+
+
 Heres some pretty cool things:
 
 [HomeTerm](https://hometerm.dev/) 
