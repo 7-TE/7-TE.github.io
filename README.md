@@ -1,12 +1,26 @@
 # Portfolio Website  
-https://7-te.github.io
-
+### ***https://7-TE.github.io***
+<div align="center">l
+   <p></p>
+    <a href="https://github.com/7-TE/github.io/stargazers">
+      <img src="https://img.shields.io/github/stars/7-TE/7-te.github.io?color=%23ffb29b&labelColor=%230B0F10&style=for-the-badge">
+   </a>
+   <a href="https://github.com/7-TE/github.io/network/members/">
+      <img src="https://img.shields.io/github/forks/7-TE/7-te.github.io?color=%237ba5dd&labelColor=%230B0F10&style=for-the-badge">
+   </a>
+   <img src="https://img.shields.io/github/repo-size/7-TE/7-te.github.io?color=%23ee6a70&labelColor=%230B0F10&style=for-the-badge">
+   <a href="https://discord.gg/2RfJb3CVfb">
+      <img src="https://img.shields.io/discord/723849691552284772?color=cb92f2&labelColor=0B0F10&style=for-the-badge"/>
+   </a> 
+	<img src="https://badges.pufler.dev/visits/7-TE/7-te.github.io?style=for-the-badge&color=91e6b1&logoColor=white&labelColor=0B0F10"/>
+   <br>
+</div>
 
 
 ## ✨About the Project
 
 My project i.e a responsive website to show my designing and front-end skills in web development.
-
+https://github.com/7-TE/7-TE.github.io/edit/gh-pages/README.md
 ## Environment Setup for local use-
 
 * Drop a :star: on the GitHub repository.
@@ -31,9 +45,8 @@ My project i.e a responsive website to show my designing and front-end skills in
     
 ## ⚙Installation
 
-1) Download Zip file or
-2) In your Command Line - Run git clone https://github.com/7TE/7TE.github.io.git 
-
+`1) Download Zip file or
+2) In your Command Line - Run git clone https://github.com/7TE/7TE.github.io.git`
 ## Maintainer ✨
 <table>
   <tr>
