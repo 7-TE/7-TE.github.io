@@ -1,0 +1,5 @@
+{
+  "name": "TEE7/botwebsite",
+  "timeout": 10000,
+  "connector": false
+}

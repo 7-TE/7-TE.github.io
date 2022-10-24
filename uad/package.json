@@ -1,0 +1,8 @@
+{
+  "name": "botwebsite",
+  "author": "TEE7",
+  "publish": false,
+  "dependencies": {
+    "lib": "latest"
+  }
+}
