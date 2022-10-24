@@ -1,0 +1,648 @@
+body {margin: 0;font-family: 'Montserrat', sans-serif}
+html {scroll-behavior: smooth}
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box
+}
+::before,
+::after {box-sizing: border-box}
+.home {
+    background-image: url(imgs/body1.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    display: block
+}
+.main-content {padding-left: 25%;text-align: left}
+.main-container .main-content .social,
+.main-container .main-content .social a {
+    color: cornsilk;
+    text-align: center
+}
+.social {
+    z-index: 10;
+    text-align: center;
+    border-radius: 30%;
+    float: left;
+    width: 10%;
+    top: 75px;
+    right: 30px;
+    position: absolute;
+    height: 100%
+}
+.social .fa {
+    border-radius: 100%;
+    border: 1px solid lightyellow;
+    padding: 20px 20px;
+    margin: 20px 20px;
+    color: #fff;
+    font-size: 2rem
+}
+.social .fa:hover {
+    color: #19B3D3;
+    border: 3px solid #19B3D3;
+    padding: 25px 25px
+}
+.main-content .text {
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 30px;
+    color: thistle;
+    text-transform: uppercase;
+    display: fixed;
+    padding-top: 0;
+    font-weight: 300px
+}
+.primary {
+    color: limegreen;
+    text-decoration: overline;
+    font-weight: 200
+}
+h1 {
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 1.1;
+    z-index: 2;
+    color: #19B3D3;
+    padding-top: 150px;
+    font-family: 'Do Hyeon', sans-serif
+}
+.a {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+    display: inline-block
+}
+h1 .devesh {
+    color: lightyellow;
+    font-weight: 100;
+    font-family: 'Teko', sans-serif;
+    padding: 20px;
+    font-size: 5rem
+}
+.a:hover {
+    color: #fcf876;
+    animation-name: rubberBand;
+    font-weight: 900
+}
+@keyframes rubberBand {
+    from {
+        transform: scale3d(1, 1, 1)
+    }
+    30% {
+        transform: scale3d(1.25, .75, 1)
+    }
+    40% {
+        transform: scale3d(.75, 1.25, 1)
+    }
+    50% {
+        transform: scale3d(1.15, .85, 1)
+    }
+    65% {
+        transform: scale3d(.95, 1.05, 1)
+    }
+    75% {
+        transform: scale3d(1.05, .95, 1)
+    }
+    to {
+        transform: scale3d(1, 1, 1)
+    }
+}
+.b {
+    animation: b 1s infinite
+}
+.b {
+    font-weight: 600
+}
+@keyframes b {
+    0% {
+        color: #d4f3ef
+    }
+    25% {
+        color: #fbc687
+    }
+    50% {
+        color: #ddf3f5
+    }
+    100% {
+        color: lemonchiffon
+    }
+}
+.service-area {
+    margin-top: 30px
+}
+.service-area p {
+    margin-bottom: -5px
+}
+.service-wrap {
+    box-shadow: 0 0 15px rgba(0, 0, 0, .2);
+    overflow: hidden;
+    padding: 25px 35px;
+    position: relative;
+    transition: all 0.5s ease 0s;
+    z-index: 9;
+    margin: 20px
+}
+.service-wrap::before,
+.service-wrap::after {
+    content: '';
+    height: 300%;
+    position: absolute;
+    transform: rotate(45deg);
+    width: 120%;
+    z-index: -9;
+    transition: all 0.5s;
+    opacity: 0;
+    background-color: #000
+}
+.service-wrap::before {
+    top: -70%;
+    left: 100%
+}
+.service-wrap:hover:before {
+    left: -70%;
+    opacity: 1
+}
+.service-wrap::after {
+    right: 100%;
+    bottom: -70%
+}
+.service-wrap:hover:after {
+    right: -70%;
+    opacity: 1
+}
+.service-wrap:hover {
+    color: #fff
+}
+.service-wrap:h3 {
+    color: wheat
+}
+.service-wrap:hover h3 {
+    color: #fff
+}
+.service-wrap:hover h3:after {
+    background-color: #fff
+}
+.service-icon i {
+    font-size: 30px;
+    margin-bottom: 20px;
+    transition: all 0.5s
+}
+.service-wrap:hover .service-icon i {
+    transform: rotate(360deg)
+}
+.service-wrap h3 {
+    font-size: 24px;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 15px;
+    font-family: 'Do Hyeon', sans-serif
+}
+.service-wrap p {
+    font-size: 14px;
+    margin-bottom: 0
+}
+#h2 {
+    font-size: 4.1rem;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+    padding-top: 2%;
+    font-family: 'Do Hyeon', sans-serif
+}
+.section-title {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 60px
+}
+.section-title h2 {
+    font-size: 40px;
+    color: #000;
+    font-family: 'Do Hyeon', sans-serif;
+    font-weight: 700;
+    margin: 0;
+    position: relative
+}
+.section-title h2::before .section-title h2::before {
+    content: '';
+    height: 4px;
+    width: 50px;
+    position: absolute;
+    top: 100%;
+    left: 0
+}
+.container p {
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 1;
+    line-height: 1.5
+}
+.contactus-one .contact-form .form-control {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #fff;
+    border-radius: 0;
+    background-color: transparent;
+    color: #f4f6ff;
+    height: 50px;
+    font-family: 'Do Hyeon', sans-serif
+}
+.contactus-one .contact-form .form-control {
+    border-bottom: 1px solid #f4f6ff;
+    box-shadow: none
+}
+.contact-info>div>p {
+    margin-bottom: 10px
+}
+.contactus-one .contact-info p i {
+    margin-right: 15px;
+    color: #fff
+}
+.map iframe {
+    pointer-events: none;
+    width: 100%;
+    border: none
+}
+.map {
+    text-align: center
+}
+.map {
+    pointer-events: none;
+    width: 100%;
+    border: none
+}
+.contactus-one .dart-headingstyle-one .dart-heading:after {
+    left: 15px;
+    font-size: 800
+}
+.normal-btn {
+    background: whitesmoke none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #40424a;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: 800;
+    text-transform: uppercase
+}
+.dart-heading {
+    color: #fff;
+    font-weight: 800;
+    font-size: 2rem;
+    padding: 2%
+}
+.contact-form {
+    padding: 5%
+}
+.contactus-one {
+    background-color: #000
+}
+.site-btn {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 16px;
+    min-width: 213px;
+    min-height: 20px;
+    text-align: center;
+    padding: 20px 10px 15px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .4);
+    border-radius: 10%;
+    background-color: #000;
+    margin-right: 10px;
+    color: #fff;
+    font-weight: 700
+}
+.site-btn:hover {
+    color: #fff;
+    background-color: #000
+}
+.icon-box {
+    text-align: center;
+    display: inline-block;
+    margin-right: 60px
+}
+.icon-box:last-child {
+    margin-right: 0
+}
+.icon-box i {
+    font-size: 60px
+}
+.icon-box p {
+    color: #f4f6ff
+}
+.social-links a {
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s
+}
+.header-section {
+    padding: 50px 40px;
+    background: #f2f7f8
+}
+.site-logo h2 {
+    font-size: 36px
+}
+.site-logo h2 a {
+    color: #40424a
+}
+.site-logo p {
+    font-size: 14px;
+    line-height: normal
+}
+.header-buttons a {
+    margin-top: 15px
+}
+.hero-section {
+    background: #f2f7f8
+}
+.hero-text {
+    padding-top: 80px;
+    margin-bottom: 80px;
+    font-family: 'Do Hyeon', sans-serif
+}
+.hero-text h2 {
+    font-size: 125px;
+    line-height: normal;
+    margin-bottom: 20px;
+    margin-right: 50px
+}
+.hero-text p {
+    font-size: 33px;
+    line-height: 1.3
+}
+.hero-image {
+    padding-top: 70px;
+    width: 100%
+}
+.hero-info h2 {
+    margin-bottom: 30px
+}
+.hero-info ul {
+    list-style: none
+}
+.hero-info ul li {
+    font-size: 24px;
+    color: #393e46;
+    margin-bottom: 15px
+}
+.hero-info ul li span {
+    color: #40424a;
+    display: inline-block;
+    min-width: 220px
+}
+.hero-info ul li:last-child {
+    margin-bottom: 0
+}
+#skills {
+    background-image: url(imgs/body1.jpg);
+    padding: 5%;
+    margin: 0
+}
+.skillhead #myskill {
+    color: darkgrey;
+    font-size: 4rem;
+    font-weight: 800;
+    margin: 5% auto;
+    padding: 0
+}
+.progress-wrap {
+    color: linen
+}
+.progress {
+    margin: 3% auto
+}
+.contact-info p {
+    color: #fff
+}
+.footer-section {
+    color: whitesmoke;
+    background-color: #000
+}
+.container-free p,
+.container-free h2 {
+    color: #fff;
+    font-family: 'Do Hyeon', sans-serif;
+    line-height: 1.5;
+    letter-spacing: 1.2
+}
+header {
+    position: absolute;
+    padding-left: 20px;
+    width: 100%;
+    height: 30px;
+    z-index: 999
+}
+.left_area h3 {
+    color: #fff;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 900
+}
+.left_area span {
+    color: #1dc4e7
+}
+.sidebar {
+    margin-top: 70px;
+    padding-top: 30px;
+    position: absolute;
+    left: 0;
+    width: 22%;
+    height: 100%;
+    transition: 0.5s;
+    transition-property: left;
+    font-family: 'Do Hyeon', sans-serif
+}
+.sidebar .profile_image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    padding: 45px;
+    text-align: center
+}
+.sidebar h4 {
+    color: #ccc;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-family: 'Do Hyeon', sans-serif
+}
+.sidebar a {
+    color: #fff;
+    display: block;
+    width: 100%;
+    line-height: 60px;
+    font-size: 1.8rem;
+    text-decoration: none;
+    padding-left: 40px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    transition-property: background-color
+}
+.sidebar a:hover {
+    color: #19B3D3;
+    font-weight: 800;
+    padding-left: 10px
+}
+.sidebar i {
+    padding-right: 10px
+}
+label #sidebar_btn {
+    z-index: 1;
+    color: #fff;
+    position: absolute;
+    cursor: pointer;
+    left: 300px;
+    font-size: 20px;
+    margin: 15px 0;
+    transition: 0.5s;
+    transition-property: color
+}
+label #sidebar_btn:hover {
+    color: #19B3D3
+}
+#check:checked~.sidebar {
+    left: -190px
+}
+#check:checked~.sidebar a span {
+    display: none
+}
+#check:checked~.sidebar a {
+    font-size: 20px;
+    margin-left: 170px;
+    width: 80px
+}
+#check:checked~.main-content {
+    margin-left: 60px
+}
+#check {
+    display: none
+}
+.copyright-text i {
+    color: wheat;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem
+}
+.container-free p {
+    font-size: 1.5rem
+}
+.container-free h2 {
+    font-size: 2.5rem
+}
+.pod__item {
+    color: #fff;
+    text-align: center;
+    padding: 4em 1em
+}
+.pod__item__heading {
+    font-size: 4em;
+    line-height: 1em;
+    margin-bottom: .25em;
+    font-weight: 700;
+    letter-spacing: -.025em;
+    font-family: 'Do Hyeon', sans-serif
+}
+.pod__item p {
+    font-size: 1.8rem;
+    font-family: 'Do Hyeon', sans-serif
+}
+.rotate {
+    animation: rotation 3s infinite linear
+}
+@keyframes rotation {
+    from {
+        transform: rotate(-45deg)
+    }
+    to {
+        transform: rotate(45deg)
+    }
+}
+.img-btn {
+    background-color: #f2f7f8;
+    padding: 20px;
+    margin-top: 20px;
+    border: none;
+    font-size: 2rem
+}
+.img-btn:hover {
+    font-weight: 800;
+    background-color: #000;
+    color: #fff
+}
+.img1 {
+    position: absolute;
+    right: 45vh;
+    z-index: 1;
+    border-radius: 5%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+}
+.logo {
+    width: 100%
+}
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    z-index: 99
+}
+#status {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-image: url(imgs/loader.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: -100px 0 0 -100px
+}
+.container-free .btn {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .9);
+    font-size: 1.5rem
+}
+@media screen and (max-width: 992px) {
+    @media screen and (max-width: 992px) {
+        .main-content h1 {
+            font-size:5rem
+        }
+        .social {
+            width: 100%;
+            top: 80vh;
+            height: 25vh;
+            text-align: center;
+        }
+        .social .fa {
+            font-size: 80px;
+            border: 2px solid #fff;
+            padding: 30px 30px;
+        }
+        .social .fa:hover {
+            color: #19B3D3;
+            border: 5px solid #19B3D3;
+            padding: 45px 45px;
+        }
+        .sidebar {
+            width: 28%;
+        }
+        .main-content {
+            padding-left: 30%;
+        }
+        .intro h1 {
+            top: 50vh;
+        }
+        .hero-text {
+            margin: 100px;
+        }
+        .img1 {
+            position: absolute;
+            top: 40vh;
+            right: 25vh;
+        }
+    }
